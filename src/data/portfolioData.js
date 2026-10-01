@@ -4,11 +4,11 @@ export const personalInfo = {
   shortBio: "Computer Science undergraduate with hands-on experience in data analysis, machine learning, and full-stack web development.",
   about: {
     paragraph1: "I am a Computer Science undergraduate at Allenhouse Group of Institutions with a primary focus on Data Analytics, Data Science, and Full Stack Web Development. I possess a strong foundation in Python and SQL, alongside hands-on experience performing exploratory data analysis (EDA), data preprocessing, visualization, and predictive modeling.",
-    paragraph2: "Complementing my analytical background, I am skilled in MERN Stack development (MongoDB, Express.js, React.js, Node.js, REST APIs), enabling me to build both data-driven insights and full-stack web applications. Through my machine learning internships, I have applied Python and analytical workflows to search ranking datasets and supervised learning models.",
+    paragraph2: "Complementing my analytical background, I am skilled in MERN Stack development (MongoDB, Express.js, React.js, Node.js, REST APIs) and Cloud AI technologies including Microsoft Azure AI, enabling me to build data-driven intelligent applications. Through my machine learning internships, I have applied Python and analytical workflows to search ranking datasets and supervised learning models.",
     focusAreas: [
       "Data Analytics & Exploratory Data Analysis (EDA)",
       "MERN Stack Web Development (React, Node, Express, MongoDB)",
-      "Predictive Modeling & Machine Learning Workflows",
+      "Machine Learning & Cloud AI (Microsoft Azure AI)",
       "Database Systems (SQL, PostgreSQL, MongoDB)"
     ]
   },
@@ -85,6 +85,8 @@ export const skillsData = {
     "MongoDB"
   ],
   "Machine Learning & AI": [
+    "Microsoft Azure AI",
+    "Azure AI Services",
     "Scikit-learn",
     "Supervised Learning",
     "Unsupervised Learning",
@@ -97,6 +99,7 @@ export const skillsData = {
     "OpenCV"
   ],
   "Tools & Platforms": [
+    "Microsoft Azure",
     "Git",
     "GitHub",
     "Jupyter Notebook",
@@ -143,6 +146,25 @@ export const experiences = [
 
 export const projects = [
   {
+    id: "skillflow",
+    title: "SkillFlow — AI-Powered Freelance Marketplace & Project Management",
+    category: "Full Stack",
+    technologies: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "Gemini AI", "JWT", "Docker"],
+    shortDesc: "Full-stack freelance marketplace combining Talent Discovery + Hiring + Project Management + Real-time Collaboration + AI Intelligence in one platform.",
+    highlights: [
+      "Multi-role platform: Client, Freelancer, and Admin dashboards.",
+      "AI Requirement Breakdown — converts project requirements into milestones & tasks.",
+      "AI Freelancer Matching and task effort estimation via Gemini API.",
+      "Real-time chat with Socket.io and Kanban task management.",
+      "Milestone tracking, invoicing, and client approval workflows.",
+      "Production-ready with Docker, JWT auth, and CORS security."
+    ],
+    githubUrl: "https://github.com/guurav18",
+    liveUrl: null,
+    featured: true,
+    isHero: true
+  },
+  {
     id: "predictive-modeling-pipeline",
     title: "Predictive Modeling & Analytics Pipeline",
     category: "Data Analytics",
@@ -156,7 +178,8 @@ export const projects = [
       "Cross-validation performance comparison.",
       "Automated exploratory analysis and trend extraction."
     ],
-    githubPlaceholder: "https://github.com/guurav18",
+    githubUrl: "https://github.com/guurav18",
+    liveUrl: null,
     featured: true
   },
   {
@@ -172,7 +195,8 @@ export const projects = [
       "Explainable AI workflows.",
       "Generates human-readable insights for misinformation and fraud detection."
     ],
-    githubPlaceholder: "https://github.com/guurav18",
+    githubUrl: "https://github.com/guurav18",
+    liveUrl: null,
     featured: true
   },
   {
@@ -187,7 +211,8 @@ export const projects = [
       "Implemented ball tracking and impact prediction concepts.",
       "Used visual analysis techniques to simulate cricket decision-making workflows."
     ],
-    githubPlaceholder: "https://github.com/guurav18",
+    githubUrl: "https://github.com/guurav18",
+    liveUrl: null,
     featured: true
   }
 ];
@@ -203,6 +228,13 @@ export const education = [
 ];
 
 export const certifications = [
+  {
+    title: "Microsoft Azure — AI Fundamentals & AI Services",
+    issuer: "Microsoft",
+    year: "2025",
+    type: "Cloud & AI Certification",
+    icon: "Cloud"
+  },
   {
     title: "Oracle Cloud Infrastructure 2025 — Certified Data Science Professional",
     issuer: "Oracle",
@@ -302,12 +334,13 @@ Cricket Decision Review System (LBW)
 TECHNICAL SKILLS
 • Data Analytics & Data Science: Python, SQL, Pandas, NumPy, Matplotlib, Seaborn, Exploratory Data Analysis (EDA), Data Wrangling, Data Preprocessing, Data Visualization, Statistical Analysis, Feature Engineering, Predictive Modeling, Power BI, Tableau
 • MERN Stack Development: HTML, CSS, JavaScript, Bootstrap, React.js, Node.js, Express.js, MongoDB, REST APIs
-• Databases: MySQL, PostgreSQL, MongoDB
-• Machine Learning & AI: Scikit-learn, Supervised Learning, Unsupervised Learning, Classification, Regression, Clustering, NLP Fundamentals
+• Machine Learning & AI: Microsoft Azure AI, Azure AI Services, Scikit-learn, Supervised Learning, Unsupervised Learning, Classification, Regression, Clustering, NLP Fundamentals
 • Computer Vision: OpenCV
-• Tools & Platforms: Git, GitHub, Jupyter Notebook, Google Colab, Power BI, Tableau
+• Databases: MySQL, PostgreSQL, MongoDB
+• Tools & Platforms: Microsoft Azure, Git, GitHub, Jupyter Notebook, Google Colab, Power BI, Tableau
 
 CERTIFICATIONS
+• Microsoft Azure — AI Fundamentals & AI Services
 • Oracle Cloud Infrastructure 2025 — Certified Data Science Professional
 • Deloitte Australia — Data Analytics Job Simulation
 • IBM / Coursera — Data Analysis with Python

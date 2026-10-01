@@ -1,5 +1,5 @@
 import React from 'react';
-import { Award, Brain, BarChart3, Sparkles, FileCode, CheckCircle2, ShieldCheck } from 'lucide-react';
+import { Award, Brain, BarChart3, Sparkles, FileCode, CheckCircle2, ShieldCheck, Cloud } from 'lucide-react';
 import { certifications } from '../data/portfolioData';
 import useScrollReveal from '../hooks/useScrollReveal';
 
@@ -9,7 +9,8 @@ const iconMap = {
   BarChart3,
   Sparkles,
   FileCode,
-  CheckCircle2
+  CheckCircle2,
+  Cloud
 };
 
 const Certifications = () => {

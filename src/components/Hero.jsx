@@ -131,7 +131,7 @@ const Hero = ({ onOpenResume }) => {
                 <span className="code-string">"Python"</span>,{' '}
                 <span className="code-string">"SQL"</span>,{' '}
                 <span className="code-string">"MERN Stack"</span>,{' '}
-                <span className="code-string">"EDA"</span>]
+                <span className="code-string">"Azure AI"</span>]
               </div>
               <div className="code-line indent-1">
                 <span className="code-self">self</span>.status ={' '}
